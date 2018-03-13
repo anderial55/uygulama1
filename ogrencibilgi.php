@@ -38,13 +38,11 @@
 		}
 		else
 		{
+			$dosya=fopen("bilgi.txt","a");
+			$yazilacak=$_POST["no"],"-",$_POST["adi"],"-",$_POST["soyadi"],"\n";
+			fputs($dosya,$yazilacak);
 			
-			
-			
-			
-			
-			
-			
+				
 		}
 	}
 ?>
